@@ -1,5 +1,5 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const Document = styled.img`
     display: none;
@@ -11,7 +11,7 @@ const Document = styled.img`
         cursor: pointer;
         opacity: 0.8;
     }
-`
+`;
 
 const Description = styled.div`
     width: 100%;
@@ -22,16 +22,16 @@ const Description = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
-`
+`;
 
 const Span = styled.span`
-overflow: hidden;
-display: -webkit-box;
-max-width: 100%;
--webkit-line-clamp: 4;
--webkit-box-orient: vertical;
-text-overflow: ellipsis;
-`
+    overflow: hidden;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+`;
 
 const Card = styled.div`
     width: 650px;
@@ -65,13 +65,13 @@ const Card = styled.div`
 
     }
     border: 0.1px solid #854CE6;
-`
+`;
 
 const Top = styled.div`
     width: 100%;
     display: flex;
-    gap: 12px
-`
+    gap: 12px;
+`;
 
 const Image = styled.img`
     height: 50px;
@@ -81,14 +81,13 @@ const Image = styled.img`
     @media only screen and (max-width: 768px){
         height: 40px;
     }
-`
+`;
 
 const Body = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column; 
-`
-
+`;
 
 const Name = styled.div`
     font-size: 18px;
@@ -97,7 +96,7 @@ const Name = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 14px;
     }
-`
+`;
 
 const Degree = styled.div`
     font-size: 14px;
@@ -106,7 +105,7 @@ const Degree = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
-`
+`;
 
 const Date = styled.div`
     font-size: 12px;
@@ -115,18 +114,7 @@ const Date = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
-`
-
-const Grade = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
-
-
+`;
 
 const EducationCard = ({ education }) => {
     return (
@@ -144,7 +132,7 @@ const EducationCard = ({ education }) => {
                 <Span>{education.desc}</Span>
             </Description>
         </Card>
-    )
-}
+    );
+};
 
-export default EducationCard
+export default EducationCard;
