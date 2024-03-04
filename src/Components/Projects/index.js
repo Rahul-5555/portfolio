@@ -1,11 +1,12 @@
 import React from 'react';
-import { useState } from 'react';
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle';
+// import { useState } from 'react';
+import { Container, Wrapper, Title, Desc, CardContainer } from './ProjectsStyle'; // Removed unused imports
 import ProjectCard from '../Cards/ProjectCards';
 import { projects } from '../../data/constants';
 
-const Projects = ({ setOpenModal }) => { // Removed the 'openModal' prop as it's not being used in the component
-  const [toggle, setToggle] = useState('all');
+const Projects = ({ setOpenModal }) => {
+  // Remove the unused setToggle state setter function
+  // const [toggle, setToggle] = useState('all');
   
   // Function to handle clicking on a project card
   const handleProjectClick = (githubUrl) => {
@@ -19,22 +20,12 @@ const Projects = ({ setOpenModal }) => { // Removed the 'openModal' prop as it's
         <Desc>
           I have worked on a wide range of projects. From web apps. Here are some of my projects.
         </Desc>
-        <ToggleButtonGroup>
-          {/* Toggle buttons code */}
-        </ToggleButtonGroup>
+        {/* ToggleButtonGroup code */}
         <CardContainer>
-          {toggle === 'all' && projects
-            .map((project) => (
-              <ProjectCard 
-                project={project} 
-                setOpenModal={setOpenModal} // Pass the 'setOpenModal' function as a prop
-                onClick={() => handleProjectClick(project.githubUrl)}
-              />
-            ))}
           {projects
-            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard 
+                key={project.id} // Add key prop to each ProjectCard component
                 project={project} 
                 setOpenModal={setOpenModal} // Pass the 'setOpenModal' function as a prop
                 onClick={() => handleProjectClick(project.githubUrl)}

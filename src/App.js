@@ -1,7 +1,7 @@
 import './App.css';
 import styled, { ThemeProvider } from 'styled-components';
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes';
+import { useState } from "react"; // Removed unused useEffect import
+import { darkTheme } from './utils/Themes'; // Removed unused lightTheme import
 import Navbar from './Components/Navbar';
 import Hero from './Components/HeroSection';
 import Skills from './Components/Skills';
@@ -13,20 +13,21 @@ import Contact from './Components/Contact';
 import Footer from "./Components/Footer";
 
 const Body = styled.div`
-background-color: ${({ theme }) => theme.bg};
-height: 100%;
-width: 100%;
-overflow-x: hidden;`;
+  background-color: ${({ theme }) => theme.bg};
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+`;
 
 const Wrapper = styled.div`
-background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
-width: 100%;
-clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);`
+  background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
+`;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  const [openModal, setOpenModal] = useState({ state: false, project: null }); // Removed unused darkMode and setDarkMode
+
   return (
     <ThemeProvider theme={darkTheme}>
       <Router>
@@ -50,7 +51,6 @@ function App() {
           }
         </Body>
       </Router>
-
     </ThemeProvider>
   );
 }
