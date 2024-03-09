@@ -1,12 +1,10 @@
 import React from 'react';
 // import { useState } from 'react';
-import { Container, Wrapper, Title, Desc, CardContainer } from './ProjectsStyle'; // Removed unused imports
+import { Container, Wrapper, Title, Desc, CardContainer } from './ProjectsStyle'; 
 import ProjectCard from '../Cards/ProjectCards';
 import { projects } from '../../data/constants';
 
 const Projects = ({ setOpenModal }) => {
-  // Remove the unused setToggle state setter function
-  // const [toggle, setToggle] = useState('all');
   
   // Function to handle clicking on a project card
   const handleProjectClick = (githubUrl) => {

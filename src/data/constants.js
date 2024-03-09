@@ -3,7 +3,7 @@ export const Bio = {
   name: "Rahul Kumar Malviya",
   roles: [
     "Full Stack Developer",
-    "UI/UX Designer",
+    "UI Designer",
     "Programmer",
   ],
   description:
