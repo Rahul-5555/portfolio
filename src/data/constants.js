@@ -308,33 +308,20 @@ export const projects = [
     github: "https://github.com/Rahul-5555/YouTube-Clone",
     webapp: "https://rahulyoutube-clone.netlify.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "Brain Tumor Detection",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-  //   image:
-  //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-  //   webapp: "https://brain-tumor.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    title: "Thread-clone",
+    date: "March 2024 - april 2024",
+    description:
+      "The thread-clone application is a social networking platform that allows users to authenticate, create posts, like, comment, and chat with each other. Users can sign up securely, share posts with text and media, engage by liking and commenting on posts, and communicate in real-time through direct messaging and group chats. The application features robust backend and frontend components for user management, content creation, and interactive communication, ensuring a seamless and engaging user experience.",
+    image:
+      "https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d15a6d1-c181-4dfe-8cd8-9f81639bc1f3.avif",
+    tags: ["Html", "Css","Chakra UI","Javascript", "Node", "MongoDb", "React"],
+    category: "React",
+    github: "https://github.com/Rahul-5555/Thread-clone",
+    webapp: "https://thread-clone-1.onrender.com"
+  },
+
   // {
   //   id: 3,
   //   title: "Buckoid",
