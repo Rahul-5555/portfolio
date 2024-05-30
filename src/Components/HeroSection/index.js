@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImage3 from "../../Images/HeroImage3.jpg"
+import Rahul1 from "../../Images/Rahul1.jpg"
 import HeroBgAnimation from '../../HeroBgAnimation';
 
 
@@ -238,7 +238,7 @@ const Hero = () => {
 
           <HeroRightContainer id="Right">
 
-            <Image src={HeroImage3} alt="hero-image" />
+            <Image src={Rahul1} alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
 

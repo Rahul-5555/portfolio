@@ -9,7 +9,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Rahul-5555/",
-  resume: "https://drive.google.com/file/d/1NVW0bB5B8N7-9t1AwkQomNsk6QBejj-O/view",
+  resume: "https://drive.google.com/drive/folders/14Db4hu5P5FCffMfzrsJsgV6u5G2Npx9L",
   // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
   // twitter: "https://twitter.com/RishavChanda",
   // insta: "https://www.instagram.com/rishav_chanda/",
