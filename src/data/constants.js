@@ -261,11 +261,11 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "E-commerse",
-    date: "Jun 2023 - Jul 2023",
+    title: "E-commerse-web",
+    date: "May 2024 - June 2024",
     description:
-      "Welcome to [Your E-commerce ]! Our platform offers a seamless shopping experience with features including intuitive add-to-cart functionality, robust user authentication ensuring security and privacy, efficient database management powered by MongoDB for storing and retrieving vast product inventory and user data, and a responsive design that adapts flawlessly to various devices, ensuring a consistent and optimized browsing experience. Shop confidently knowing your data is secure and your satisfaction is our priority.",
-    image: "https://i.ytimg.com/vi/xun2w12nW1U/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAqRcFRBtc94QzfpX4JuQmnk1q7zQ",
+      "Welcome to E-commerce-web! Enjoy a seamless shopping experience with our platform's intuitive add-to-cart functionality, robust user authentication, and efficient MongoDB-powered database management. Our responsive design adapts to various devices, ensuring an optimized browsing experience. Additionally, benefit from our powerful search filter functionality to easily find the products you need. Shop confidently knowing your data is secure and your satisfaction is our priority.",
+    image: "https://github.com/Rahul-5555/E-commerce-1/blob/main/E-commece-logo.png?raw=true",
     tags: [
       "Html",
       "Css",
@@ -277,9 +277,30 @@ export const projects = [
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/Rahul-5555/E-Commerce",
-    webapp: "https://github.com/Rahul-5555/E-Commerce",
+    github: "https://github.com/Rahul-5555/E-commerce-1",
+    webapp: "https://e-commerce-1-frontend.onrender.com",
   },
+  // {
+  //   id: 9,
+  //   title: "E-commerse",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "Welcome to [Your E-commerce ]! Our platform offers a seamless shopping experience with features including intuitive add-to-cart functionality, robust user authentication ensuring security and privacy, efficient database management powered by MongoDB for storing and retrieving vast product inventory and user data, and a responsive design that adapts flawlessly to various devices, ensuring a consistent and optimized browsing experience. Shop confidently knowing your data is secure and your satisfaction is our priority.",
+  //   image: "https://i.ytimg.com/vi/xun2w12nW1U/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAqRcFRBtc94QzfpX4JuQmnk1q7zQ",
+  //   tags: [
+  //     "Html",
+  //     "Css",
+  //     "Javascript",
+  //     "React Js",
+  //     "MongoDb",
+  //     "Node Js",
+  //     "Express Js",
+  //     "Redux",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/Rahul-5555/E-Commerce",
+  //   webapp: "https://github.com/Rahul-5555/E-Commerce",
+  // },
   {
     id: 0,
     title: "Wanderlust",
