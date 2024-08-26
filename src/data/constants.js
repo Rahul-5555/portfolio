@@ -265,7 +265,7 @@ export const projects = [
     date: "May 2024 - June 2024",
     description:
       "Welcome to E-commerce-web! Enjoy a seamless shopping experience with our platform's intuitive add-to-cart functionality, robust user authentication, and efficient MongoDB-powered database management. Our responsive design adapts to various devices, ensuring an optimized browsing experience. Additionally, benefit from our powerful search filter functionality to easily find the products you need. Shop confidently knowing your data is secure and your satisfaction is our priority.",
-    image: "https://github.com/Rahul-5555/Payment-Order-E-commerce-web/blob/main/shopper.png",
+    image: "https://github.com/Rahul-5555/Payment-Order-E-commerce-web/tree/main",
     tags: [
       "Html",
       "Css",
