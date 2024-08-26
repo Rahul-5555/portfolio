@@ -278,7 +278,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Rahul-5555/E-commerce-1",
-    webapp: "https://payment-order-e-commerce-web-4p7d.vercel.app/",
+    webapp: "",
   },
   // {
   //   id: 9,
