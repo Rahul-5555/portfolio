@@ -111,6 +111,11 @@ export const skills = [
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
       },
       {
+        name: "Vercel",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI6JYbOzSzfVkDhBLse0QYREwViYu4nUACrBKyz6ONF_4ulBOhe2jMJ4qfdnYAa5Mik2E&usqp=CAU",
+      },
+      {
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
