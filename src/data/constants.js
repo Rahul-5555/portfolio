@@ -265,6 +265,28 @@ export const education = [
 
 export const projects = [
   {
+    id: 8,
+    title: "Job Quest",
+    date: "July 2024 - September 2024",
+    description:
+      "Our job portal offers a seamless experience with secure authentication, an intuitive Admin Panel, and streamlined signup options for both students and recruiters. Students can quickly create profiles, explore tailored job opportunities, and track applications. Recruiters can effortlessly post job listings, manage applications, and connect with top talent. The Admin Panel provides complete control and oversight, ensuring smooth operation and management of the platform.",
+    image: "https://github.com/Rahul-5555/Job-Portal/blob/main/job%20portal%20thumb.png?raw=true",
+    tags: [
+      "Html",
+      "Tailwind Css",
+      "Javascript",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Shadcn ui"
+    ],
+    category: "web app",
+    github: "https://github.com/Rahul-5555/Job-Portal",
+    webapp: "https://jobportalrah.netlify.app/",
+  },
+  {
     id: 9,
     title: "E-commerse-web",
     date: "May 2024 - June 2024",
