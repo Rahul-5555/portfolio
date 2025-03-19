@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Rahul Kumar Malviya. All rights reserved.
+          &copy; 2025 Rahul Kumar Malviya. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
