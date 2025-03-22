@@ -8,7 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Rahul-5555/",
-  resume: "https://drive.google.com/file/d/1sKOCl0Fj5RED6fzpv4IMVImhLxrXMwLb/view",
+  resume: "https://drive.google.com/file/d/1u3kSwPQIPHp5mXrcshnQAsF0BFY0uKPH/view",
   linkedin: "https://www.linkedin.com/in/rahul-kumar-malviya-21552714a/",
   // twitter: "https://twitter.com/RishavChanda",
   // insta: "",
