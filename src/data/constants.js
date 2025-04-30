@@ -291,7 +291,7 @@ export const projects = [
     date: "Feb 2025 -  April 2025",
     description:
       "I developed a NetLink-inspired social networking platform using the MERN stack, featuring secure user authentication with JWT and Bcrypt, post creation with text and image uploads, real-time friend requests and notifications via Socket.io, and interactive engagement features like liking and commenting on posts. Built with React, Node.js, Express, and MongoDB, this full-stack project demonstrates my ability to integrate real-time functionality while maintaining secure and scalable architecture. The app showcases my proficiency in handling complex backend logic, responsive frontend design, and seamless WebSocket communication—perfectly highlighting my full-stack development capabilities.",
-    image: "https://github.com/Rahul-5555/Linkedin-/blob/main/Linkdedin.png?raw=true",
+    image: "https://github.com/Rahul-5555/NetLink-/blob/main/thumbnails_NetLink.png?raw=true",
     tags: [
       "Html5",
       "Tailwind Css",
